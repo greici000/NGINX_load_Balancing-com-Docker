@@ -41,9 +41,7 @@ Bash
 
    git clone 
 
-https://docs.github.com/pt/migrations/importing-source-code/using-the-command-line
-to-import-source-code/adding-locally-hosted-code-to-github 
-cd [pasta do projeto] 
+https://github.com/greici000/NGINX_load_Balancing-com-Docker
 
 3. Subir os Contêineres: 
 Bash 
