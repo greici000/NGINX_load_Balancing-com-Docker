@@ -14,12 +14,15 @@ Compose.
 # Características Principais 
 ● Balanceamento de Carga: O NGINX é configurado para distribuir o tráfego para os 
 servidores backend backend1 e backend2. 
+
 ● Algoritmo: Utiliza o algoritmo least_conn (Mínimas Conexões Ativas), que envia a nova 
 requisição para o servidor backend com o menor número de conexões ativas no 
 momento, otimizando a distribuição de carga1. 
+
 ● Servidores Backend: Dois serviços idênticos baseados em Node.js com um servidor 
 HTTP simples (em server.js) que retorna uma página HTML estilizada, mostrando o nome 
 do host (container ID) para comprovar qual servidor está respondendo à requisição. 
+
 ● Contêineres: Todo o ambiente é gerenciado via Docker Compose, criando uma rede 
 interna (backendnet) para os serviços.
 
@@ -56,7 +59,7 @@ Abra seu navegador e acesse: http://localhost:80
 Ao recarregar a página, o NGINX aplicará o algoritmo least_conn e você verá o Servidor 
 Atual alternar entre os nomes de host de backend1 e backend2, demonstrando o balanceamento de carga em ação.
 
-#Para Parar e Remover os Contêineres 
+Para Parar e Remover os Contêineres 
 Bash 
 
 docker-compose down
