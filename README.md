@@ -39,7 +39,7 @@ tráfego para os serviços backend.
 2. Clonar o Repositório: 
 Bash 
 
-git clone 
+   git clone 
 
 https://docs.github.com/pt/migrations/importing-source-code/using-the-command-line
 to-import-source-code/adding-locally-hosted-code-to-github 
@@ -48,7 +48,7 @@ cd [pasta do projeto]
 3. Subir os Contêineres: 
 Bash 
 
-docker-compose up --build -d 
+   docker-compose up --build -d 
 
 Isso irá construir as imagens dos backends e iniciar os três contêineres: backend1, 
 backend2 e nginx-load-balancer. 
@@ -62,4 +62,4 @@ Atual alternar entre os nomes de host de backend1 e backend2, demonstrando o bal
 Para Parar e Remover os Contêineres 
 Bash 
 
-docker-compose down
+   docker-compose down
