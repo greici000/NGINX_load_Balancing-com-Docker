@@ -35,22 +35,28 @@ tráfego para os serviços backend.
 
 2. Clonar o Repositório: 
 Bash 
+
 git clone 
+
 https://docs.github.com/pt/migrations/importing-source-code/using-the-command-line
 to-import-source-code/adding-locally-hosted-code-to-github 
 cd [pasta do projeto] 
 
 3. Subir os Contêineres: 
 Bash 
+
 docker-compose up --build -d 
+
 Isso irá construir as imagens dos backends e iniciar os três contêineres: backend1, 
 backend2 e nginx-load-balancer. 
 
 4. Acessar a Demonstração: 
 Abra seu navegador e acesse: http://localhost:80 
+
 Ao recarregar a página, o NGINX aplicará o algoritmo least_conn e você verá o Servidor 
 Atual alternar entre os nomes de host de backend1 e backend2, demonstrando o balanceamento de carga em ação.
 
 #Para Parar e Remover os Contêineres 
 Bash 
+
 docker-compose down
