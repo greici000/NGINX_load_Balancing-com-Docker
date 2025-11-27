@@ -5,7 +5,7 @@ const port = 8080;
 const server = http.createServer((req, res) => {
   const hostname = os.hostname();
   
-  // HTML completo e estilizado
+  // HTML completo 
   const html = `
 <!DOCTYPE html>
 <html lang="pt-BR">
