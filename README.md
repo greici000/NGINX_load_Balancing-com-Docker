@@ -34,7 +34,7 @@ O projeto é composto por três serviços principais:
 tráfego para os serviços backend.
 
 # Como Executar o Projeto 
-1. Pré-requisitos: Certifique-se de ter o Docker e o Docker Compose instalados. 
+1. Pré-requisitos: Certifique-se de ter o Docker instalado. 
 
 2. Clonar o Repositório: 
 Bash 
