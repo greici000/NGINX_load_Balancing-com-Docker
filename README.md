@@ -45,7 +45,7 @@ https://github.com/greici000/NGINX_load_Balancing-com-Docker
 
 3. Subir os Contêineres: 
 Bash 
-
+   cd ./nginx-load-balancing/
    docker-compose up --build -d 
 
 Isso irá construir as imagens dos backends e iniciar os três contêineres: backend1, 
